@@ -1,7 +1,5 @@
 # DF - DormFood
 
-## Table of Contents
-
 ## Project Name
 
 DormFood
@@ -33,9 +31,9 @@ After running this command, you can test the application by accessing it at http
 Home Page ( PC View )
 
 DormFood in PC (large) View
-<br> <img src="https://github.com/burak-ekinci/kyk/tree/main/src/assets/pc.png"> <br> </br>
+<br> <img src="https://github.com/burak-ekinci/kyk/blob/main/src/assets/pc.png"> <br> </br>
 
 ## &#9745; Home Page ( Mobile View )
 
 DormFood in Mobile view
-<br> <img src="https://github.com/burak-ekinci/kyk/tree/main/src/assets/mobile.png"> <br> </br>
+<br> <img src="https://github.com/burak-ekinci/kyk/blob/main/src/assets/mobile.png"> <br> </br>
