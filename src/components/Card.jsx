@@ -6,7 +6,7 @@ const Card = ({ day, month }) => {
   var [todayNumber, setTodayNumber] = useState(day);
   useEffect(() => {
     setToday(list[todayNumber]);
-  }, []);
+  }, [todayNumber]);
 
   // const today = list[day];
   return (
@@ -32,9 +32,9 @@ const Card = ({ day, month }) => {
           className="btn btn-success"
           onClick={() => {
             if (todayNumber == 22) {
-              alert("O kadar da gün girmeye uğraşamadım balım");
               setTodayNumber(day);
               setToday(list[todayNumber]);
+              alert("O kadar da gün girmeye uğraşamadım balım");
             } else {
               setTodayNumber(--todayNumber);
               setToday(list[todayNumber]);
@@ -47,9 +47,9 @@ const Card = ({ day, month }) => {
           className="btn btn-success"
           onClick={() => {
             if (todayNumber == 30) {
-              alert("Hop! yeter da :)");
               setTodayNumber(day);
               setToday(list[todayNumber]);
+              alert("Hop! yeter da :)");
             } else {
               setTodayNumber(++todayNumber);
               setToday(list[todayNumber]);
