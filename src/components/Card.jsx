@@ -13,9 +13,13 @@ const Card = ({ day, month }) => {
     <div>
       <div className="card m-5">
         <div className="card-body">
-          <h5 className="card-title">Sabah Menü</h5>
+          <h5 className="card-title">🌅Sabah Menü</h5>
           <p className="card-text">
-            {todayNumber} {month} 2024 Sabah Menüsü:
+            <b>
+              {" "}
+              {todayNumber} {month} 2024
+            </b>{" "}
+            Sabah Menüsü:
           </p>
         </div>
         <ul className="list-group list-group-flush">
@@ -41,7 +45,7 @@ const Card = ({ day, month }) => {
             }
           }}
         >
-          Previous Day
+          ❮ Previous Day
         </button>
         <button
           className="btn btn-success"
@@ -56,15 +60,19 @@ const Card = ({ day, month }) => {
             }
           }}
         >
-          Next Day
+          Next Day ❯
         </button>
       </div>
 
       <div className="card m-5">
         <div className="card-body">
-          <h5 className="card-title">Akşam Menü</h5>
+          <h5 className="card-title">🌃 Akşam Menü</h5>
           <p className="card-text">
-            {todayNumber} {month} 2024 Akşam Menüsü:
+            <b>
+              {" "}
+              {todayNumber} {month} 2024
+            </b>{" "}
+            Akşam Menüsü:
           </p>
         </div>
         <ul className="list-group list-group-flush">
