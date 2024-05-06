@@ -35,7 +35,7 @@ const Card = ({ day, month }) => {
         <button
           className="btn btn-success"
           onClick={() => {
-            if (todayNumber == 22) {
+            if (todayNumber == 5) {
               setTodayNumber(day);
               setToday(list[todayNumber]);
               alert("O kadar da gün girmeye uğraşamadım balım");
@@ -45,12 +45,12 @@ const Card = ({ day, month }) => {
             }
           }}
         >
-          ❮ Previous Day
+          ❮❮ Previous Day
         </button>
         <button
           className="btn btn-success"
           onClick={() => {
-            if (todayNumber == 30) {
+            if (todayNumber == 31) {
               setTodayNumber(day);
               setToday(list[todayNumber]);
               alert("Hop! yeter da :)");
@@ -60,7 +60,7 @@ const Card = ({ day, month }) => {
             }
           }}
         >
-          Next Day ❯
+          Next Day ❯❯
         </button>
       </div>
 
