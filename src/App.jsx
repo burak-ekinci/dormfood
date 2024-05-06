@@ -1,6 +1,6 @@
-import { useState } from "react";
 import Card from "./components/Card";
 import BaseLayout from "./layout/BaseLayout";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const date = new Date();
@@ -49,7 +49,9 @@ function App() {
   }
 
   return (
-    <BaseLayout props={<Card day={todayNumber} month={month} />}></BaseLayout>
+    <BaseLayout props={<Card day={todayNumber} month={month} />}>
+      <Analytics />
+    </BaseLayout>
   );
 }
 
