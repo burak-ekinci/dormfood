@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import list from "../data/list.json";
+import FeedbackButton from "./Mailto";
 // import msgJson from "../data/msg.json";
 
 const Card = ({ day, month }) => {
@@ -9,13 +10,13 @@ const Card = ({ day, month }) => {
   var [todayNumber, setTodayNumber] = useState(day);
 
   useEffect(() => {
-    console.log(msgJson);
     setToday(list[todayNumber]);
   }, [todayNumber]);
 
   // const today = list[day];
   return (
     <div>
+      <FeedbackButton />
       <div className="card m-5">
         <div className="card-body">
           <h5 className="card-title">🌅Sabah Menü</h5>
@@ -86,7 +87,7 @@ const Card = ({ day, month }) => {
           ))}
         </ul>
       </div>
-      // Get idea from peoples
+
       {/* <div className="m-3 p-2 border rounded">
         <form
           onSubmit={(event) => {
