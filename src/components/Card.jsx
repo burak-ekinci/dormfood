@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import list from "../data/list.json";
 
 const Card = ({ day, month }) => {
+  const msg = useRef();
+  const [message, setMessage] = useState([]);
   const [today, setToday] = useState(list[day]);
   var [todayNumber, setTodayNumber] = useState(day);
   useEffect(() => {
@@ -79,6 +81,70 @@ const Card = ({ day, month }) => {
           {today.evening.map((item, index) => (
             <li key={index} className="list-group-item">
               {item}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="m-3 p-2 border rounded">
+        <form
+          onSubmit={(event) => {
+            event.preventDefault();
+            console.log("submitledi");
+            if (msg.current.value) {
+              setMessage([msg.current.value, ...message]);
+              msg.current.value = "";
+            }
+          }}
+        >
+          <div className="mb-3">
+            <label className="form-label">Uygulama Nasıl Gelişir?</label>
+            <input ref={msg} type="text" className="form-control" />
+            <div className="form-text">
+              Uygulamayı geliştirmeye yardımcı fikirlerinizi iletebilirsiniz.
+            </div>
+          </div>
+          <button type="submit" className="btn btn-primary">
+            Gönder
+          </button>
+        </form>
+
+        {/* <form
+          onSubmit={(event) => {
+            event.preventDefault();
+            console.log("submitledi");
+            if (msg.current.value) {
+              setMessage([msg.current.value, ...message]);
+            }
+            console.log(message);
+          }}
+        >
+          <input ref={msg} className="input p-2" type="text" />
+          <button className="btn btn-primary ms-2 btn-lg" type="submit">
+            Gönder
+          </button>
+        </form> */}
+
+        <ul className="list-group mt-5 m-2 p-1 border border-3">
+          {message.map((msge, index) => (
+            <li
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                flexWrap: "wrap",
+                wordBreak: "break-word",
+              }}
+              key={index}
+              className="list-group-item m-2 border border"
+            >
+              {msge}
+              <button
+                onDoubleClick={() => {
+                  setMessage(message.filter((item) => item !== msge));
+                }}
+                className="btn btn-sm "
+                type="button"
+              ></button>
             </li>
           ))}
         </ul>
