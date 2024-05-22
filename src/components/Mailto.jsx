@@ -3,7 +3,8 @@ import React from "react";
 const FeedbackButton = () => {
   const email = "bltycxkk@gmail.com";
   const subject = "WebApp Geliştirme";
-  const body = "Merhaba, görüş ve fikirlerinizi buraya yazabilirsiniz.";
+  const body =
+    "Merhaba, görüş ve fikirlerinizi buraya yazabilirsiniz. Örneğin, Yemekler için yüzdelik olarak beğendim, beğenmedim oranı olsun.";
 
   const handleClick = () => {
     window.location.href = `mailto:${email}?subject=${encodeURIComponent(
