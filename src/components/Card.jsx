@@ -1,12 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 import list from "../data/list.json";
+// import msgJson from "../data/msg.json";
 
 const Card = ({ day, month }) => {
-  const msg = useRef();
-  const [message, setMessage] = useState([]);
+  // const msg = useRef();
+  // const [message, setMessage] = useState(msgJson);
   const [today, setToday] = useState(list[day]);
   var [todayNumber, setTodayNumber] = useState(day);
+
   useEffect(() => {
+    console.log(msgJson);
     setToday(list[todayNumber]);
   }, [todayNumber]);
 
@@ -32,7 +35,6 @@ const Card = ({ day, month }) => {
           ))}
         </ul>
       </div>
-
       <div className="d-flex justify-content-around">
         <button
           className="btn btn-success"
@@ -65,7 +67,6 @@ const Card = ({ day, month }) => {
           Next Day ❯❯
         </button>
       </div>
-
       <div className="card m-5">
         <div className="card-body">
           <h5 className="card-title">🌃 Akşam Menü</h5>
@@ -85,8 +86,8 @@ const Card = ({ day, month }) => {
           ))}
         </ul>
       </div>
-
-      <div className="m-3 p-2 border rounded">
+      // Get idea from peoples
+      {/* <div className="m-3 p-2 border rounded">
         <form
           onSubmit={(event) => {
             event.preventDefault();
@@ -108,22 +109,6 @@ const Card = ({ day, month }) => {
             Gönder
           </button>
         </form>
-
-        {/* <form
-          onSubmit={(event) => {
-            event.preventDefault();
-            console.log("submitledi");
-            if (msg.current.value) {
-              setMessage([msg.current.value, ...message]);
-            }
-            console.log(message);
-          }}
-        >
-          <input ref={msg} className="input p-2" type="text" />
-          <button className="btn btn-primary ms-2 btn-lg" type="submit">
-            Gönder
-          </button>
-        </form> */}
 
         <ul className="list-group mt-5 m-2 p-1 border border-3">
           {message.map((msge, index) => (
@@ -148,7 +133,7 @@ const Card = ({ day, month }) => {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
