@@ -12,9 +12,10 @@ const FeedbackButton = () => {
   };
 
   return (
-    <div className="text-center mt-2">
+    <div className="text-center m-3">
       <button className="btn btn-primary" onClick={handleClick}>
-        Fikirlerinizi belirterek uygulamamızı geliştirmemize yardımcı olun.
+        Fikirlerinizi belirterek uygulamamızı geliştirmemize yardımcı
+        olabilirsiniz.
       </button>
     </div>
   );
