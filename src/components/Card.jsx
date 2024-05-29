@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import list from "../data/list.json";
 import FeedbackButton from "./Mailto";
+import Warning from "./Warning";
 // import msgJson from "../data/msg.json";
 
 const Card = ({ day, month }) => {
@@ -16,6 +17,7 @@ const Card = ({ day, month }) => {
   // const today = list[day];
   return (
     <div>
+      <Warning />
       <FeedbackButton />
       <div className="card m-5">
         <div className="card-body">
