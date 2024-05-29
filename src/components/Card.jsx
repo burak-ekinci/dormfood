@@ -17,8 +17,6 @@ const Card = ({ day, month }) => {
   // const today = list[day];
   return (
     <div>
-      <Warning />
-      <FeedbackButton />
       <div className="card m-5">
         <div className="card-body">
           <h5 className="card-title">🌅Sabah Menü</h5>
