@@ -2,17 +2,19 @@ import React from "react";
 
 const Warning = () => {
   return (
-    <div class="alert alert-warning m-5" role="alert">
-      Bugün(29.05.2024) <strong>HEPSİJET</strong> firması üzerinden herhangi bir
-      kargo alacak olan varsa KIZ VEYA ERKEK YURDUNDA OLMANIZ FARK ETMEZ, sadece{" "}
-      <strong>
-        firmanın dağıtıma ne zaman çıktığından o an haberimizin olmasını
-        istiyoruz.
-      </strong>{" "}
-      Sizden ricamız hepsijet firma aracı yurdunuza geldiyse veya dağıtıma
-      çıktığını gördüyseniz bize aşağıdaki butondan mesaj olarak nerede ve saat
-      kaçta gördüğünüzü iletmeniz. Teşekkür ederiz.
-    </div>
+    <>
+      <div className="alert alert-warning m-5" role="alert">
+        Yemek listesini <strong>en kısa zamanda</strong> güncelleyecem{" "}
+        <strong>yemek listesini bekliyoruz...</strong> Beklemede kalın bropalar{" "}
+        <i>@kykyemek @DEVS</i>
+      </div>
+      <img
+        className="img img-fluid me-5 ms-5"
+        width={"60%"}
+        src="https://gifdb.com/images/high/monkey-on-the-phone-e87w1ne9zw18qddo.gif"
+        alt="yemekler bekleniyi"
+      />
+    </>
   );
 };
 

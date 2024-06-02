@@ -1,4 +1,5 @@
 import Card from "./components/Card";
+import Warning from "./components/Warning";
 import BaseLayout from "./layout/BaseLayout";
 
 function App() {
@@ -48,7 +49,8 @@ function App() {
   }
 
   return (
-    <BaseLayout props={<Card day={todayNumber} month={month} />}></BaseLayout>
+    // <BaseLayout props={<Card day={todayNumber} month={month} />}></BaseLayout>
+    <BaseLayout props={<Warning />}></BaseLayout>
   );
 }
 
