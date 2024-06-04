@@ -3,9 +3,9 @@ import React from "react";
 const Warning = () => {
   return (
     <>
-      <div className="alert alert-warning m-5" role="alert">
-        Yemek listesini <strong>en kısa zamanda</strong> güncelleyecem{" "}
-        <strong>yemek listesini bekliyoruz...</strong> Beklemede kalın bropalar{" "}
+      <div className="alert alert-success m-5" role="alert">
+        <strong></strong>
+        <strong>yemek listesini bekliyoruz...</strong>
         <i>@kykyemek @DEVS</i>
       </div>
       <img

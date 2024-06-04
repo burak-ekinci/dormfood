@@ -14,7 +14,6 @@ const Card = ({ day, month }) => {
     setToday(list[todayNumber]);
   }, [todayNumber]);
 
-  // const today = list[day];
   return (
     <div>
       <div className="card m-5">

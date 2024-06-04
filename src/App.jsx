@@ -50,7 +50,7 @@ function App() {
 
   return (
     // <BaseLayout props={<Card day={todayNumber} month={month} />}></BaseLayout>
-    <BaseLayout props={<Warning />}></BaseLayout>
+    <BaseLayout props={<Card day={todayNumber} month={month} />}></BaseLayout>
   );
 }
 
