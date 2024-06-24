@@ -8,6 +8,7 @@ const BaseLayout = ({ props }) => {
       <div className="custom-display">{props}</div>
       <img className="m-4 img-fluid" src="/bus.jpg" alt="" />
       <img className="m-4 mt-2 img-fluid" src="/bus1.jpg  " alt="" />
+      <img className="m-4 mt-2 img-fluid" src="/bus2.jpg  " alt="" />
     </>
   );
 };
