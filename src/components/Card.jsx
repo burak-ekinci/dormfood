@@ -22,7 +22,7 @@ const Card = ({ day, month }) => {
             width={70}
             className="z-3 position-absolute img-fluid"
             style={{ marginTop: -10, marginRight: "23" }}
-            src="/public/mnk.png"
+            src="https://github.com/burak-ekinci/dormfood/blob/main/public/mnk.png?raw=true"
             alt=""
           />{" "}
         </div>
@@ -74,7 +74,7 @@ const Card = ({ day, month }) => {
         <button
           className="btn btn-success"
           onClick={() => {
-            if (todayNumber == 31) {
+            if (todayNumber == 21) {
               setTodayNumber(day);
               setToday(list[todayNumber]);
               alert("Hop! yeter da :)");
@@ -105,10 +105,10 @@ const Card = ({ day, month }) => {
               className="list-group-item d-flex justify-content-between"
             >
               <span>{item}</span>
-              <span className="d-flex justify-content-center">
+              {/* <span className="d-flex justify-content-center">
                 <button className="btn btn-success me-2">👍</button>
                 <button className="btn btn-danger">👎</button>
-              </span>
+              </span> */}
             </li>
           ))}
         </ul>
