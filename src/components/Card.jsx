@@ -35,10 +35,10 @@ const Card = ({ day, month }) => {
             </b>{" "}
             Sabah Menüsü:
           </p>
-          <span className="d-flex justify-content-center">
+          {/* <span className="d-flex justify-content-center">
             <button className="btn btn-success me-2">👍</button>
             <button className="btn btn-danger">👎</button>
-          </span>
+          </span> */}
         </div>
         <ul className="list-group list-group-flush">
           {today.morning.map((item, index) => (
