@@ -6,10 +6,7 @@ const BaseLayout = ({ props }) => {
     <>
       <Navbar />
       <div className="text-center">
-        <i>
-          Aşağıya her yemeğe bir like/unlike butonu koydum yemeği yiyen oylasın
-          ona göre yemeğe gelmim yaw. (meymun opsiyonel)
-        </i>
+        <i>afied</i>
       </div>
       {/* <div className="container text-center d-flex justify-content-center align-items-center">
         <div>
