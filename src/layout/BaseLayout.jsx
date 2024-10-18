@@ -55,7 +55,7 @@ const BaseLayout = ({ props }) => {
           <div className="col-lg-4 col-md-6 col-sm-12 p-2">
             <img
               className="mt-2 img-fluid border border-3 border-warning rounded-4 "
-              src="/bus2.jpg  "
+              src="/bus3.jpg  "
               alt=""
             />
           </div>
