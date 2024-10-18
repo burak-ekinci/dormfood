@@ -74,7 +74,7 @@ const Card = ({ day, month }) => {
         <button
           className="btn btn-success"
           onClick={() => {
-            if (todayNumber == 21) {
+            if (todayNumber == 31) {
               setTodayNumber(day);
               setToday(list[todayNumber]);
               alert("Hop! yeter da :)");
