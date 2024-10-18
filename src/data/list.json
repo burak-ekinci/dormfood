@@ -5,7 +5,7 @@
       "Labne Peynir",
       "Siyah/Yeşil Zeytin",
       "Reçel Çeşitleri",
-      "Mevsim Sebzeleri Söğüş",
+      "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
@@ -82,17 +82,77 @@
   {
     "morning": [
       "Peynirli Omlet",
+      "Labne Peynir",
+      "Siyah/Yeşil Zeytin",
+      "Reçel Çeşitleri",
+      "Mevsim Sebzeleri Söğüş",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Yayla Ç./Şehriye Ç.",
+      "Etli Nohut Yemeği / Taze Fasulye",
+      "Bulgur Pilavı",
+      "Revani",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Peynirli Omlet",
+      "Labne Peynir",
+      "Siyah/Yeşil Zeytin",
+      "Reçel Çeşitleri",
+      "Mevsim Sebzeleri Söğüş",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Yayla Ç./Şehriye Ç.",
+      "Etli Nohut Yemeği / Taze Fasulye",
+      "Bulgur Pilavı",
+      "Revani",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Pizza (1Dilim)",
+      "Krem Peynir",
+      "Reçel Çeşitleri",
+      "Mevsim Sebzeleri Söğüş",
+      "Siyah/Yeşil Zeytin",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Süzme Mercimek Ç./Tarhana Ç.",
+      "Tavuk Sote / Taze Fasulye",
+      "Makarna",
+      "Yoğurt",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Patatesli Yumurta",
       "Beyaz Peynir",
-      "Siyah/Yeşil Zeytin",
       "Helva",
       "Mevsim Sebzeleri Söğüş",
+      "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Yayla Ç./Mahluta Ç.",
-      "Rosto Köfte / Domates Soslu Karışık Kızartma",
+      "Ezogelin Ç./Düğün Ç.",
+      "Etli Mevsim Türlü / Patates Tridi",
       "Şehriyeli Pirinç Pilavı",
       "Rus Salatası",
       "500 mL Su",
@@ -101,100 +161,20 @@
   },
   {
     "morning": [
-      "Patates Kızartması",
-      "Kaşar Peynir",
-      "Siyah/Yeşil Zeytin",
+      "Sosis Kokteyl(Salçalı veya Kızartma)",
+      "Beyaz Peynir",
+      "Haşlanmış Yumurta",
       "Sürülebilir Çikolata",
-      "Haşlanmış Yumurta",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Süzme Mercimek Ç./Mehir Ç.",
-      "Tas Kebabı / Mantar Sote",
-      "Sebzeli Bulgur Pilavı",
-      "Salata",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Menemen",
-      "Beyaz Peynir",
-      "Siyah/Yeşil Zeytin",
-      "Tahinli Pekmez",
-      "Muz",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Ezogelin Ç./Sebze Ç.",
-      "Lahmacun+limon/ Karışık Dolma",
-      "Yoğurt Soslu Mantı",
-      "Triliçe",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Açma/Poğaşa/Simit",
-      "Labne Peynir",
-      "Bal+Tereyağ",
-      "Haşlanmış Yumurta",
       "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Yayla Ç./Tarhana Ç.",
-      "Tavuk Sote / Taze Fasulye",
-      "Şehriyeli Pirinç Pilavı",
-      "Havuç Tarator",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Sucuklu Yumurta",
-      "Beyaz Peynir",
-      "Kek",
-      "Mevsim Sebzeleri Söğüş",
-      "Siyah/Yeşil Zeytin",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Mercimek Ç./Yüksük Ç.",
-      "Etli Nohut/Ratatuy",
-      "Bulgur Pilavı",
-      "Cevizli Kadayıf",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Patates Kızartması",
-      "Krem Peynir",
-      "Reçel Çeşitleri",
-      "Haşlanmış Yumurta",
-      "Siyah/Yeşil Zeytin",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Ezogelin Ç./Şehriye Ç.",
-      "Akçaabat Köfte+Fıınlanmış Domates+Biber / Çiğ Köfte Dürüm",
-      "Salçalı Makarna",
-      "Ayran",
+      "Mercimek Ç./Sebze Ç.",
+      "Lahmacun / Karışık Dolma",
+      "Mantı (Yoğurtlu)",
+      "Salata+Limon",
       "500 mL Su",
       "Çeyrek Ekmek"
     ]
@@ -203,7 +183,7 @@
     "morning": [
       "Sade Omlet",
       "Kaşar Peynir",
-      "Sürülebilir Çikolata",
+      "Kek",
       "Mevsim Sebzeleri Söğüş",
       "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
@@ -211,18 +191,18 @@
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Yayla Ç./Köz Biber Ç.",
-      "Çoban Kavurma/İmam Bayıldı",
-      "Şehriyeli Pirinç Pilavı",
-      "Yoğurtlu Dövme",
+      "Süzme Mercimek Ç./Yayla Ç.",
+      "Piliç Kavurma / Ratatuy",
+      "Salçalı Makarna",
+      "İrmik Helvası",
       "500 mL Su",
       "Çeyrek Ekmek"
     ]
   },
   {
     "morning": [
-      "Açma/Simit/Poğaça",
-      "Labne Peynir",
+      "Açma/Poğaça/Simit",
+      "Krem Peynir",
       "Bal+Tereyağı",
       "Haşlanmış Yumurta",
       "Siyah/Yeşil Zeytin",
@@ -231,19 +211,19 @@
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Süzme Mercimek Ç./ Ayran Aşı Ç.",
-      "Malatya Tava / Patatesli Pide",
+      "Ezogelin Ç./Yüksük Ç.",
+      "Bezelye Yemeği / Kıymalı Patates Oturtma",
       "Nohutlu Pirinç Pilavı",
-      "Elma",
+      "Ayran",
       "500 mL Su",
       "Çeyrek Ekmek"
     ]
   },
   {
     "morning": [
-      "Kaşarlı Omlet",
+      "Sucuklu Yumurta",
       "Beyaz Peynir",
-      "Tahinli Pekmez",
+      "Sürülebilir Çikolata",
       "Mevsim Sebzeleri Söğüş",
       "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
@@ -251,18 +231,58 @@
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Ezogelin Ç. / Yüksük Ç.",
-      "Piliç Kavrma+Patates Cips/ Taze Fasulye",
-      "Domatesli Bulgur Pilavı",
-      "Sütlaç",
+      "Yayla Ç./ Mahluta",
+      "Çoban Kavurma / İmam Bayıldı",
+      "Salçalı Bulgur Pilavı",
+      "Havuç Tarator",
       "500 mL Su",
       "Çeyrek Ekmek"
     ]
   },
   {
     "morning": [
-      "Pizza(1 dilim)",
-      "Krem Peynir",
+      "Patates Kızartması",
+      "Kaşar Peynir",
+      "Reçel Çeşitleri",
+      "Haşlanmış Yumurta",
+      "Siyah/Yeşil Zeytin",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Süzme Mercimek Ç./ Soğuk Ayran Aşı",
+      "Etli Kuru Fasulye / Mevsim Türlü",
+      "Pirinç Pilavı",
+      "Şekerpare",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Menemen",
+      "Çubuk Peynir",
+      "Muz",
+      "Tahinli Pekmez",
+      "Siyah/Yeşil Zeytin",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Ezogelin Ç./Domates Ç.",
+      "Sebzeli Fırın Köfte / Domates Soslu Karışık Kızartma",
+      "Makarna",
+      "Ayran",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Açma/Poğaça/Simit",
+      "Beyaz Peynir",
       "Reçel Çeşitleri",
       "Haşlanmış Yumurta",
       "Siyah/Yeşil Zeytin",
@@ -272,17 +292,17 @@
     ],
     "evening": [
       "Yayla Ç./Şehriye Ç.",
-      "Etli Kuru Fasulye/ Mevsim Türlü",
-      "Pirinç Pilavı",
-      "Turşu",
+      "Piliç Izgara / Patatesli Pide",
+      "Şehriyeli Pirinç Pilavı",
+      "Salata",
       "500 mL Su",
       "Çeyrek Ekmek"
     ]
   },
   {
     "morning": [
-      "Menemen",
-      "Malatya Peyniri",
+      "Kaşarlı Omlet",
+      "Labne Peynir",
       "Sürülebilir Çikolata",
       "Mevsim Sebzeleri Söğüş",
       "Siyah/Yeşil Zeytin",
@@ -291,28 +311,29 @@
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Süzme Mercimek Ç./ Domates ç.",
-      "İzmir Köfte / Karışık Dolma",
-      "Yoğurt soslu Makarna",
-      "Çikolatalı Islak Kek",
+      "Süzme Mercimek Ç./Tarhana Ç.",
+      "Etli Karışık Dolma / Çiğ Köfte Dürüm",
+      "Mantı(Yoğurtlu)",
+      "Tavuk Göğsü",
+      "500 mL Su",
       "Çeyrek Ekmek"
     ]
   },
   {
     "morning": [
       "Patates Kızartması",
-      "Labne Peynir",
-      "Reçel Çeşitleri ",
+      "Beyaz Peynir",
+      "Reçel Çeşitleri",
+      "Salam (Piliç)",
       "Haşlanmış Yumurta",
-      "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Ezogelin Ç./Mehir Ç.",
-      "Antep Ezme / İmam Bayıldı",
-      "Bulgur Pilavı",
+      "Ezogelin Ç./Şehriye Ç.",
+      "Tas Kebabı / Taze Fasulye",
+      "Salçalı Bulgur Pilavı",
       "Cacık",
       "500 mL Su",
       "Çeyrek Ekmek"
@@ -320,40 +341,20 @@
   },
   {
     "morning": [
-      "Peynirli Omlet",
-      "Beyaz Peynir",
-      "Tahinli Pekmez",
-      "Mevsim Sebzeleri Söğüş",
+      "Menemen",
+      "Kaşar Peynir",
+      "Simit",
       "Siyah/Yeşil Zeytin",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Yayla Ç./Tarhana Ç.",
-      "Kavurma / Domates Soslu Karışık Kızartma",
-      "Şehriyeli Pirinç Pilavı",
-      "Cevizli Kadayıf",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Sosisli Patates Kızartması",
-      "Krem Peynir",
       "Reçel Çeşitleri",
-      "Siyah/Yeşil Zeytin",
-      "Haşlanmış Yumurta",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Süzme Mecimek Ç./ Düğün Ç.",
-      "Malatya Tava / Karışık Dolma",
-      "Yoğurt Soslu Mantı",
-      "Sütlaç",
+      "Ezogelin Ç./ Düğün Ç.",
+      "Rosto Köfte / Patlıcan Yemeği",
+      "Nohutlu Pirinç Pilavı",
+      "Cacık",
       "500 mL Su",
       "Çeyrek Ekmek"
     ]
@@ -361,18 +362,18 @@
   {
     "morning": [
       "Peynirli Börek",
-      "Haşlanmış Yumurta",
       "Beyaz Peynir",
       "Sürülebilir Çikolata",
+      "Haşlanmış Yumurta",
       "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Yayla Ç./ Şehriye Ç.",
-      "Et Sote / Mevsim Türlü",
-      "Salçalı Bulgur Pilavı",
+      "Yayla Ç./ Yayla Ç.",
+      "Et Sote  / Mevsim Türlü",
+      "SalçalıBulgur Pilavı",
       "Salata",
       "500 mL Su",
       "Çeyrek Ekmek"
@@ -381,9 +382,9 @@
   {
     "morning": [
       "Sucuklu Yumurta",
-      "Kahvaltı Keki (Tuzlu)",
       "Malatya Peyniri",
-      "Domates/Salatalık/havuç/yeşillik",
+      "Kahvaltı Keki(tuzlu)",
+      "Mevsim Sebzeleri Söğüş",
       "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
       "500 ml Su",
@@ -401,17 +402,17 @@
   {
     "morning": [
       "Karışık Kızartma",
-      "Haşlanmış Yumurta",
       "Beyaz Peynir",
       "Helva",
+      "Haşlanmış Yumurta",
       "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Ezogelin Ç. / Dövme Ç.",
-      "Tavuk Haşlama(Tavuk opsiyonel) / İmam Bayıldı Bayılacak",
+      "Ezogelin Ç./Ezme Ç.",
+      "Tavuk Haşlama /İmam Bayıldı",
       "Pirinç Pilavı",
       "Supangle",
       "500 mL Su",
@@ -424,14 +425,14 @@
       "Çikolatalı Milföy Börek",
       "Beyaz Peynir",
       "Siyah/Yeşil Zeytin",
-      "Domates/Salatalık/Havuç/Yeşilllik",
+      "Mevsim Sebzeleri Söğüş",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Yayla Ç./ Yüksük Ç.",
-      "Nohut Yemeği ( Et yok ) / Tepsi Kumpir",
+      "Yayla Ç./Yüksük Ç.",
+      "Etsiz Nohut Yemeği/ Tepsi Kumpir",
       "Salçalı Bulgur Pilavı",
       "Çikolatalı Kek",
       "500 mL Su",
@@ -440,140 +441,20 @@
   },
   {
     "morning": [
-      "Kaşarlı Omlet",
-      "Beyaz Peynir",
-      "Helva ",
-      "Mevsim Sebzeleri Söğüş",
+      "Karışık Pizza",
+      "Labne Peynir",
+      "Reçel Çeşitleri",
+      "Haşlanmış Yumurta",
       "Siyah/Yeşil Zeytin",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Yayla Ç./Şehriye Ç.",
-      "Karnıyarık/ Kuru Fasulye",
-      "Pirinç Pilavı",
-      "Puding",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Patates Kızartması",
-      "Çubuk Peynir",
-      "Salam(piliç)",
-      "Sürülebilir Çikolata",
-      "Mevsim Sebzeleri Söğüş",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
       "Süzme Mercimek Ç./Domates Ç.",
-      "Sebzeli Fırın Köfte / Kaşarkı-Peynirli Pide",
-      "Yoğurtlu Makarna",
-      "Karpuz",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Açma/Poğaça/Simit",
-      "Beyaz Peynir",
-      "Reçel Çeşitleri",
-      "Haşlanmış Yumurta",
-      "Siyah/Yeşil Zeytin",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Ezogelin Ç./Yüksük Ç.",
-      "Antep Ezme / Mevsim Türlü",
-      "Bulgur Pilavı",
-      "Yoğurt",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Sucuklu Yumurta",
-      "Labne Peynir",
-      "Tahinli Pekmez",
-      "Mevsim Sebzeleri Söğüş",
-      "Siyah/Yeşil Zeytin",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Yayla Ç./ Şehriye Ç.",
-      "Tas Kebabı/ İmam Bayıldı",
-      "Pirinç Pilavı",
-      "Ezme Salata",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Karışık Kızartma",
-      "Beyaz Peynir",
-      "Haşlanmış Yumurta",
-      "Sürülebilir Çikolata",
-      "Siyah/Yeşil Zeytin",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Süzme Mercimek Ç. / Sebze Ç.",
-      "Piliç Izgara(kemiksiz)/Kaşarlı Sebzeli Pizza",
-      "Yoğurt Soslu Makarna",
-      "Cacık",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Menemen",
-      "Kaşar Peynir",
-      "Reçel Çeşitleri",
-      "Muz",
-      "Siyah/Yeşil Zeytin",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Ezogelin Ç./ Ayran Aşı Ç.",
-      "Kıymalı Patates Oturtma/Taze Fasulye",
-      "Bulgur Pilavı",
-      "Çikolatalı Islak Kek",
-      "500 mL Su",
-      "Çeyrek Ekmek"
-    ]
-  },
-  {
-    "morning": [
-      "Gül Böreği",
-      "Krem Peynir",
-      "Tahinli Pekmez",
-      "Mevsim Sebzeleri Söğüş",
-      "Siyah/Yeşil Zeytin",
-      "Çeyrek Ekmek",
-      "500 ml Su",
-      "Çay/Bitki Çayı"
-    ],
-    "evening": [
-      "Mercimek Ç./Yayla Ç.",
-      "Lahmacun+limon/ Çiğ Köfte Dürüm",
-      "Yoğurtlu Mantı",
-      "Salata",
+      "Tavuk Sote / Taze Fasulye",
+      "Peynirli Makarna",
+      "Rus Salatası",
       "500 mL Su",
       "Çeyrek Ekmek"
     ]
@@ -581,38 +462,78 @@
   {
     "morning": [
       "Peynirli Omlet",
-      "Labne Peynir",
-      "Bal+Tereyağ",
-      "Mevsim Sebzeleri Söğüş",
+      "Kaşar Peynir",
+      "Tahinli Pekmez",
+      "Dere Otlu Poğaça",
       "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Düğün Ç./Süzme Mercimek Ç.",
-      "Etli Kuru Fasulye / Kabak Kavurma",
-      "Şehriyeli Pirinç PİLavı",
-      "Mercimek Köfte",
+      "Ezogelin Ç./Ayran Aşı Ç.",
+      "Terbiyeli Köfteler / Domates Soslu Karışık Kızartma",
+      "Şehriyeli Pirinç Pilavı",
+      "Elma",
       "500 mL Su",
       "Çeyrek Ekmek"
     ]
   },
   {
     "morning": [
-      "Sucuklu Yumurta",
-      "Beyaz Peynir",
+      "Patates Kızarması",
+      "Beyas Peynir",
       "Reçel Çeşitleri",
-      "Mevsim Sebzeleri Söğüş",
+      "Haşlanmış Yumurta",
       "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
       "500 ml Su",
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Ezogelin Ç./Tarhana Ç.",
-      "Tavuk Fajita/ Domates Soslu Karışık Kızartma",
-      "Salçalı Makarna",
+      "Yayla Ç./ Mahluka Ç.",
+      "Tas Kebabı / Patates Yemeği",
+      "Şehriyeli Bulgur Pilavı",
+      "Cacık",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Menemen ",
+      "Beyaz Peynir",
+      "Sürülebilir Çikolata",
+      "Sade Açma ",
+      "Siyah/Yeşil Zeytin",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Süzme Mercimek Ç./ Dövme Ç.",
+      "Tavuk Baget / Kaşarlı Peynirli Pide",
+      "Salçalı Makarna ",
+      "Salata",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Sosis Kokteyl(Salçalı veya Kızartma)",
+      "Kaşar Peynir",
+      "Haşlanmış Yumurta",
+      "Reçel Çeşitleri",
+      "Siyah/Yeşil Zeytin",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Ezogelin  Ç. / Terbiyeli sebze Ç.",
+      "Lahmacun / Çiğköfte",
+      "Yoğurtlu Mantı",
       "Ayran",
       "500 mL Su",
       "Çeyrek Ekmek"
@@ -620,9 +541,49 @@
   },
   {
     "morning": [
-      "Açma/Poğaça/Simit",
+      "Patatesli Yumurta",
       "Beyaz Peynir",
-      "Tahinli Pekmez",
+      "Mevsim Sebzeleri Söğüş",
+      "Kek",
+      "Siyah/Yeşil Zeytin",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Yayla Ç./ Şehriye Ç.",
+      "Kremalı Mantarlı Tavuk / Bezelye Yemeği",
+      "Salçalı Bulgur Pilavı ",
+      "Kadayıf",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Simit",
+      "Beyaz Peynir",
+      "Haşlanmış Yumurta",
+      "Bal+Tereyağ",
+      "Siyah/Yeşil Zeytin",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Yayla Ç./Tarhana Ç.",
+      "Buğu Kebabı / Kuru Fasulye",
+      "Şehriyeli Pirinç Pilavı",
+      "Turşu",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Sucuklu Yumurta",
+      "Kaşar Peynir",
+      "Kahvaltı Keki",
       "Mevsim Sebzeleri Söğüş",
       "Siyah/Yeşil Zeytin",
       "Çeyrek Ekmek",
@@ -630,9 +591,49 @@
       "Çay/Bitki Çayı"
     ],
     "evening": [
-      "Ezogelin Ç./ Düğün Ç.",
-      "Piliç Kavurma / Mantar Sote",
-      "Salçalı Makarna",
+      "Süzme Mercimek Ç./Ayran Aşı Ç.",
+      "Patlıcan Musakka/ Kabak Kavurma",
+      "Sebzeli Bulgur Pİlavı",
+      "Havuç Tarator",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Patates Kızartması",
+      "Beyaz Peynir",
+      "Haşlanmış Yumurta",
+      "Tahinli Pekmez",
+      "Siyah/Yeşil Zeytin",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Ezogelin Ç./Düğün Ç.",
+      "Tavuk Fajita / Sebzeli Kaşarlı Pizza",
+      "Salçalı Makarna ",
+      "Salata",
+      "500 mL Su",
+      "Çeyrek Ekmek"
+    ]
+  },
+  {
+    "morning": [
+      "Sade Omlet ",
+      "Zeytinli Poğaça",
+      "Örgü Peynir",
+      "Mevsim Sebzeleri Söğüş",
+      "Salam(piliç)",
+      "Çeyrek Ekmek",
+      "500 ml Su",
+      "Çay/Bitki Çayı"
+    ],
+    "evening": [
+      "Yayla  Ç./ Şehriye Ç.",
+      "Izgara Köfte / Karışık Kızartma",
+      "Erişte",
       "Ayran",
       "500 mL Su",
       "Çeyrek Ekmek"
